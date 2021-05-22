@@ -24,7 +24,7 @@ https://ibb.co/nBF7BqQ
 ### Links
 
 - Solution URL: https://github.com/linoxxx/Frontend-Mentor---Ping-coming-soon-page-solution
-- Live Site URL: https://frontend-mentor-huddle-landing-page-with-curved-sect-klzk2gsmu.vercel.app/
+- Live Site URL: https://frontend-mentor-ping-coming-soon-page-solution-omega.vercel.app/
 
 ### Built with
 

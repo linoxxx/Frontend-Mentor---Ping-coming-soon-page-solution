@@ -1,0 +1,164 @@
+body {
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-top: 5vh;
+  color: #151f29; }
+
+img {
+  display: block; }
+
+.ping, main h1, main p {
+  text-align: center;
+  margin: auto; }
+
+.ping {
+  padding-bottom: 2rem;
+  width: 4rem;
+  max-width: 300px; }
+
+main span {
+  font-weight: 600;
+  color: #151f29; }
+
+main {
+  text-align: center; }
+
+main h1 {
+  font-weight: 300;
+  color: #969696;
+  padding-block: 1rem; }
+  @media only screen and (min-width: 375px) {
+    main h1 {
+      font-size: 1.6rem; } }
+  @media only screen and (min-width: 768px) {
+    main h1 {
+      font-size: 3rem; } }
+
+main p {
+  font-size: .75rem; }
+  @media only screen and (min-width: 768px) {
+    main p {
+      font-size: 1rem;
+      padding-bottom: 1rem; } }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto 0 auto;
+  gap: 1rem;
+  position: relative;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    form {
+      flex-direction: row; } }
+  @media only screen and (min-width: 375px) {
+    form {
+      max-width: 76%; } }
+
+form.error input[type="email"] {
+  border-color: #ff5263;
+  margin-bottom: 30px; }
+  @media only screen and (min-width: 768px) {
+    form.error input[type="email"] {
+      margin-bottom: 0; } }
+
+form .error_text {
+  position: absolute;
+  top: 55px;
+  font-size: .75rem;
+  color: #ff5263;
+  font-weight: 500;
+  font-style: italic; }
+  @media only screen and (min-width: 768px) {
+    form .error_text {
+      left: 15rem;
+      margin-block: -15px;
+      font-size: .85rem;
+      top: 70px; } }
+
+.email {
+  border-radius: 40px;
+  border: 1px solid rgba(105, 108, 107, 0.23);
+  color: #969696;
+  height: 42px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 30px; }
+  @media only screen and (min-width: 768px) {
+    .email {
+      max-width: 370px; } }
+
+.email::placeholder {
+  color: #c2d3ff;
+  font-family: 'Libre Franklin', sans-serif; }
+
+.notify {
+  background-color: #4f7df3;
+  color: white;
+  font-weight: 700;
+  width: 110%;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  letter-spacing: 1.1px;
+  cursor: pointer;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-box-shadow: 3px 17px 35px -5px rgba(70, 89, 171, 0.23);
+  -moz-box-shadow: 3px 17px 35px -5px rgba(70, 89, 171, 0.23);
+  box-shadow: 3px 17px 35px -5px rgba(70, 89, 171, 0.23); }
+  @media only screen and (min-width: 768px) {
+    .notify {
+      margin: 0;
+      max-width: 240px; } }
+
+.notify:hover {
+  opacity: .8;
+  cursor: pointer; }
+
+.hero {
+  margin: 4vh auto;
+  max-width: 700px; }
+  @media only screen and (min-width: 375px) {
+    .hero {
+      width: 90%; } }
+  @media only screen and (min-width: 768px) {
+    .hero {
+      margin-top: 8vh; } }
+
+.social-holder {
+  text-align: center;
+  margin: auto; }
+  @media only screen and (min-width: 375px) {
+    .social-holder {
+      margin-top: 7rem; } }
+  @media only screen and (min-width: 768px) {
+    .social-holder {
+      margin-top: 5rem; } }
+
+.social-holder .fab {
+  display: inline-block;
+  padding: 8px;
+  color: #4f7df3;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-right: .8rem;
+  border: 1px solid rgba(105, 108, 107, 0.13);
+  border-radius: 50%; }
+  @media only screen and (min-width: 768px) {
+    .social-holder .fab {
+      margin-bottom: 1rem; } }
+
+.social-holder .fab:hover {
+  color: white;
+  background-color: #4f7df3; }
+
+footer p {
+  color: #969696;
+  font-size: .7rem;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

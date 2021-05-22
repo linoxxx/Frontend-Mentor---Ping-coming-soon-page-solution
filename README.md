@@ -23,7 +23,7 @@ https://ibb.co/nBF7BqQ
 
 ### Links
 
-- Solution URL: https://github.com/linoxxx/Frontend-Mentor---Huddle-landing-page-with-curved-sections-solution
+- Solution URL: https://github.com/linoxxx/Frontend-Mentor---Ping-coming-soon-page-solution
 - Live Site URL: https://frontend-mentor-huddle-landing-page-with-curved-sect-klzk2gsmu.vercel.app/
 
 ### Built with
